@@ -6,8 +6,8 @@
 </script>
 
 <template>
-  <nav class="bg-dark d-flex justify-content-center">
-    <div class="d-flex justify-content-between align-items-center w-75 mt-3 mb-3">
+  <nav class="bg-transparent d-flex justify-content-center">
+    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
       <div>
         <a href="#"><img src="../../public/images/white-logo-2.png" alt=""></a>
       </div>
