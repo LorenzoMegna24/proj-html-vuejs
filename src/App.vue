@@ -1,10 +1,20 @@
-<script >
+<script>
+  import NavComp from './components/NavComp.vue';
+
+  export default{
+    name: 'App',
+    components:{
+      NavComp,
+    }
+  }
 </script>
 
 <template>
- <h1>CIAO!</h1>
+  <header>
+    <NavComp/>
+  </header>
 </template>
 
 <style lang="scss">
-@use './style/main.scss'
+@use './style/main.scss';
 </style>
