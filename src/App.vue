@@ -1,12 +1,15 @@
 <script>
   import NavComp from './components/NavComp.vue';
   import HeaderComp from './components/HeaderComp.vue';
+  import ServicesComp from './components/ServicesComp.vue';
+
 
   export default{
     name: 'App',
     components:{
       NavComp,
       HeaderComp,
+      ServicesComp,
     }
   }
 </script>
@@ -16,6 +19,9 @@
     <NavComp/>
     <HeaderComp/>
   </header>
+  <main>
+    <ServicesComp/>
+  </main>
 </template>
 
 <style lang="scss">
