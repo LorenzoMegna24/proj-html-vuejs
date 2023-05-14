@@ -42,12 +42,14 @@
     <h2><strong>What</strong> We Do</h2>
     <span>When, while the lovley valley teems with vapor around meand the</span>
   </div>
-    <div class="carte container text-center">
+  <div class="carte container text-center">
     <div class="row align-items-center">
       <CardServices v-for="(element, index) in services" :key="index" :card="element"/>
     </div>
   </div>
-
+  <div class="text-center mt-4 mb-4">
+    <button type="button" class="btn btn-primary rounded-pill ms-3">Primary</button>
+  </div>
 
 </template>
 

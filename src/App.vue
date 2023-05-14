@@ -2,7 +2,7 @@
   import NavComp from './components/NavComp.vue';
   import HeaderComp from './components/HeaderComp.vue';
   import ServicesComp from './components/ServicesComp.vue';
-
+  import StartComp from './components/StartComp.vue';
 
   export default{
     name: 'App',
@@ -10,6 +10,7 @@
       NavComp,
       HeaderComp,
       ServicesComp,
+      StartComp,
     }
   }
 </script>
@@ -21,6 +22,7 @@
   </header>
   <main>
     <ServicesComp/>
+    <StartComp/>
   </main>
 </template>
 
