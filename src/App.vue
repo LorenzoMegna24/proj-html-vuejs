@@ -5,6 +5,7 @@
   import StartComp from './components/StartComp.vue';
   import PortfolioComp from './components/PortfolioComp.vue';
   import PriceComp from './components/PriceComp.vue';
+  import BlogComp from './components/BlogComp.vue';
 
   export default{
     name: 'App',
@@ -15,6 +16,7 @@
       StartComp,
       PortfolioComp,
       PriceComp,
+      BlogComp,
     }
   }
 </script>
@@ -29,6 +31,7 @@
     <StartComp/>
     <PortfolioComp/>
     <PriceComp/>
+    <BlogComp/>
   </main>
 </template>
 

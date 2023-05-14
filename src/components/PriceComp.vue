@@ -7,7 +7,7 @@
 <template>
   <div class="contenitore">
     <div class="text-center container text-white">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mb-5">
         <div class="col-lg-6">
           <span>Price List</span>
           <h3 class="text-capitalize"><strong>our</strong> pricing</h3>
@@ -16,9 +16,9 @@
       </div>
     </div>
     <div class="container text-center w-75">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-lg-4">
-          <div class="card rounded-4">
+          <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Designing</h4>
               <span class="type">PROCESS</span>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card rounded-4">
+          <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Developing</h4>
               <span class="type">PRODUCT</span>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card rounded-4">
+          <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Supporting</h4>
               <span class="type">CLIENTS</span>
