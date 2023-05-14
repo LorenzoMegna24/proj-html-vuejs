@@ -3,6 +3,7 @@
   import HeaderComp from './components/HeaderComp.vue';
   import ServicesComp from './components/ServicesComp.vue';
   import StartComp from './components/StartComp.vue';
+  import PortfolioComp from './components/PortfolioComp.vue';
 
   export default{
     name: 'App',
@@ -11,6 +12,7 @@
       HeaderComp,
       ServicesComp,
       StartComp,
+      PortfolioComp,
     }
   }
 </script>
@@ -23,6 +25,7 @@
   <main>
     <ServicesComp/>
     <StartComp/>
+    <PortfolioComp/>
   </main>
 </template>
 
