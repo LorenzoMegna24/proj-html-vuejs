@@ -39,7 +39,7 @@
   <div id="portfolio" class="container mb-5 mt-5">
     <div class="row">
       <div class="col-lg-12">
-        <span>Portfolio</span>
+        <span class="section-title">Portfolio</span>
         <h3><strong>latest</strong> work</h3>
       </div>
     </div>

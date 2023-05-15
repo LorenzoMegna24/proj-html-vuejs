@@ -38,7 +38,7 @@
     <div class="container">
     <div class="row justify-content-center text-center pt-5 pb-5">
       <div class="col-lg-6">
-        <span>Testimonial</span>
+        <span class="section-title">Testimonial</span>
         <h2><strong>What</strong> People Say</h2>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero fuga totam ducimus quam porro provident officia ipsa dignissimos maxime expedita mollitia.</span>
       </div>

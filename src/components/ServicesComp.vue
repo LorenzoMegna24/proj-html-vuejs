@@ -40,7 +40,7 @@
   <div id="services" class="text-center container pt-5 pb-5 mb-5">
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <span>Our Services</span>
+        <span class="section-title">Our Services</span>
         <h2><strong>What</strong> We Do</h2>
         <span>When, while the lovley valley teems with vapor around meand the</span>
       </div>

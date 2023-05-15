@@ -9,7 +9,7 @@
     <div class="text-center container text-white pt-5 ">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-6">
-          <span>Price List</span>
+          <span class="section-title">Price List</span>
           <h3 class="text-capitalize"><strong>our</strong> pricing</h3>
           <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod qui modi error saepe alias cum laudantium unde esse, accusantium fugiat odit mollitia.</span>
         </div>

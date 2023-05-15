@@ -12,7 +12,7 @@ export default{
           <img src="../../public/images/men-data.png" alt="">
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12">
-          <span>Start Your Project</span>
+          <span class="section-title">Start Your Project</span>
           <h2 class="text-capitalize"><strong>grow your business</strong><br>with our strategy</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit adipisci voluptas accusantium, ratione saepe rerum sunt. Neque itaque amet eum consequatur.</p>
           <button type="button" class="btn btn-pink rounded-pill ms-3">Try it Now</button>

@@ -56,7 +56,7 @@
     </div>
     <hr>
     <div class="container">
-      <div class="row">
+      <div class="row pb-3">
         <div class="col-lg-6 copy">
           <span>&#169; Phlox.All Rights Reserved.</span>
         </div>

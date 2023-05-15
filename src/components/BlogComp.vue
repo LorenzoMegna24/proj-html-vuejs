@@ -9,7 +9,7 @@
   <div id="blog" class="container mt-5 mb-5">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-lg-6">
-        <span>Blog</span>
+        <span class="section-title">Blog</span>
         <h2><strong>Latest</strong> Post</h2>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero fuga totam ducimus quam porro provident officia ipsa dignissimos maxime expedita mollitia.</span>
       </div>
