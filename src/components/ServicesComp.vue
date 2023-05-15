@@ -37,7 +37,7 @@
 </script>
 
 <template>
-  <div id="services" class="text-center container pt-5 pb-5">
+  <div id="services" class="text-center container pt-5 pb-5 mb-5">
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <span>Our Services</span>
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="carte container text-center pt-5">
+  <div class="carte container text-center pb-5 pt-5">
     <div class="row align-items-center">
       <CardServices v-for="(element, index) in services" :key="index" :card="element"/>
     </div>

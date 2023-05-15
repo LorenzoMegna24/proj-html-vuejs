@@ -12,7 +12,7 @@
           <h2 class="fw-bold text-capitalize">we offer awesome services</h2>
           <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cumque sed ipsa nostrum incidunt.</span>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 d-flex align-items-center">
           <div class="input-group mb-3 border rounded-pill p-2 bg-white">
             <input type="text" class="form-control border-0" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
             <button class="btn btn-blue rounded-pill" type="button">Subscribe</button>
@@ -86,6 +86,10 @@ h6{
 li a{
   text-decoration: none;
 }
+li a:hover{
+  color: white;
+}
+
 li a, li, .logo, .copy, hr{
   color: #888888;
 }
@@ -97,9 +101,13 @@ li a, li, .logo, .copy, hr{
   color: white;
 }
 .mail{
-padding: 30px;
-top: -75px;
+padding: 50px;
+top: -30%;
 left: 8%;
+background: rgb(249,99,107);
+background: linear-gradient(315deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+color: white;
+
 }
 
 </style>

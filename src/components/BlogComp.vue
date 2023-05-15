@@ -25,7 +25,7 @@
               <h6 class="card-subtitle mb-2">Card subtitle</h6>
               <div class="d-flex">
                 <p class="card-text w-75">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-withe rounded-pill">Read More</button>
+                <button type="button" class="btn w-25 h-25 bg-white rounded-pill">Read More</button>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
             <span>April 21,2019 . by Paul</span>
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button type="button" class="btn btn-withe rounded-pill">Read More</button>
+            <button type="button" class="btn bg-white w-50 rounded-pill">Read More</button>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
             <span>April 21,2019 . by Paul</span>
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button type="button" class="btn btn-withe rounded-pill">Read More</button>
+            <button type="button" class="btn bg-white w-50 rounded-pill">Read More</button>
           </div>
         </div>
       </div>
@@ -64,10 +64,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: brightness(80%);
 }
 .non-attiva{
   background: rgb(8,28,83);
   background: linear-gradient(325deg, rgba(8,28,83,1) 11%, rgba(0,0,0,1) 100%);
+}
+.btn:hover{
+  box-shadow: 0px 0px 6px 5px rgba(255, 255, 255, 0.30);
+  color: black;
 }
 </style>

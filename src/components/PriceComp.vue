@@ -31,12 +31,12 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
+              <button type="button" class="mt-3 mb-3 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <div class="card border-0 shadow rounded-4">
+          <div class="card card-centrale border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Developing</h4>
               <span class="type">PRODUCT</span>
@@ -49,7 +49,7 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-withe rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
+              <button type="button" class="mt-3 mb-3 btn bg-white  rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
+              <button type="button" class="mt-3 mb-3 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
@@ -103,6 +103,18 @@
   }
   .contenitore{
     background: rgb(8,28,83);
-background: linear-gradient(180deg, rgba(8,28,83,1) 11%, rgba(0,0,0,1) 65%, rgba(255,255,255,1) 65%);
+    background: linear-gradient(180deg, rgba(8,28,83,1) 11%, rgba(0,0,0,1) 65%, rgba(255,255,255,1) 65%);
+  }
+  .card-centrale{
+    background: rgb(249,99,107);
+    background: linear-gradient(315deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+    color: white;
+  }
+  .card-centrale button{
+    color: #f9636b;
+  }
+
+  .card-centrale button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.30);
   }
 </style>

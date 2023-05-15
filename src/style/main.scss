@@ -1,1 +1,24 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
+
+.btn-blue{
+  background: rgb(58,74,115);
+  background: linear-gradient(270deg, rgba(58,74,115,1) 0%, rgba(5,159,205,1) 73%);
+  color: white;
+  border: none;
+}
+.btn-pink{
+  background: rgb(249,99,107);
+  background: linear-gradient(270deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover{
+  box-shadow: 0px 0px 20px 5px rgba(249,99,107,0.61);
+  color: white;
+}
+
+.btn-blue:hover{
+  box-shadow: 0px 0px 20px 5px rgba(158, 185, 255, 0.61);
+  color: white;
+}
