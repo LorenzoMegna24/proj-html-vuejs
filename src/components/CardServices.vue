@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div class="col-lg-3">
+  <div class="col-lg-3 col-md-6 col-sm-12">
     <div class="card border border-0">
       <img :src="card.img" class="card-img-top" alt="...">
       <div class="card-body">

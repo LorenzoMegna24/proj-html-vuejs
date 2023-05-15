@@ -36,7 +36,7 @@
 
 <template>
     <div class="container">
-    <div class="row justify-content-center text-center pt-5">
+    <div class="row justify-content-center text-center pt-5 pb-5">
       <div class="col-lg-6">
         <span>Testimonial</span>
         <h2><strong>What</strong> People Say</h2>
@@ -45,12 +45,12 @@
     </div>
   </div>
   <div class="container">
-    <div class="row text-center">
+    <div class="row text-center pt-4 pb-5 mb-5">
       <Recensioni v-for="(element, index) in recensioni" :key="index" :recensione="element"/>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
+  <div class="container pb-5 mb-5">
+    <div class="row pb-5">
       <div class="brand col-lg-12 d-flex justify-content-between">
         <img src="../../public/images/client-1-1.png" alt="">
         <img src="../../public/images/clienty-2.png" alt="">

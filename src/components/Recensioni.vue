@@ -6,9 +6,9 @@
 </script>
 
 <template>
-  <div class="col lg-4">
-    <img class="rounded-circle" :src="recensione.img" alt="">
-    <div>
+  <div class="col-lg-4 col-md-12">
+    <img class="rounded-circle mb-3" :src="recensione.img" alt="">
+    <div class="mb-3">
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star"></i>
       <i class="fa-solid fa-star"></i>

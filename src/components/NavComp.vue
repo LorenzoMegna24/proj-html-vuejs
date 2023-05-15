@@ -6,36 +6,39 @@
 </script>
 
 <template>
-  <nav class="bg-transparent d-flex justify-content-center">
-    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
-      <div>
+  <div class="container">
+    <div class="row pt-4">
+      <div class="col-lg-6 col-md-4">
         <a href="#"><img src="../../public/images/white-logo-2.png" alt=""></a>
       </div>
+      <div class="col-lg-6 col-md-4">
         <ul class="d-flex align-items-center mx-4">
           <li>
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#start">Start</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <button type="button" class="ms-4 btn btn-danger rounded-pill">Danger</button>
+            <button type="button" class="ms-4 btn btn-blue rounded-pill">Sing In</button>
           </li>
         </ul>
+      </div>
     </div>
-  </nav>
+  </div>
+
 </template>
 
 <style lang="scss" scoped>

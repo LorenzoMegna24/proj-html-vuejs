@@ -36,7 +36,7 @@
 </script>
 
 <template>
-  <div class="container w-75 mb-5 mt-5">
+  <div id="portfolio" class="container mb-5 mt-5">
     <div class="row">
       <div class="col-lg-12">
         <span>Portfolio</span>
@@ -45,7 +45,7 @@
     </div>
   </div>
   <div>
-    <div class="d-flex justify-content-around mb-5">
+    <div class="d-flex justify-content-around pb-5 mb-5">
       <CardPortfolio v-for="(element, index) in portfolio" :key="index" :lavori="element"/>
     </div>
   </div>

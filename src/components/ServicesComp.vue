@@ -37,24 +37,26 @@
 </script>
 
 <template>
-  <div class="text-center mt-5 col-12">
-    <span>Our Services</span>
-    <h2><strong>What</strong> We Do</h2>
-    <span>When, while the lovley valley teems with vapor around meand the</span>
+  <div id="services" class="text-center container pt-5 pb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <span>Our Services</span>
+        <h2><strong>What</strong> We Do</h2>
+        <span>When, while the lovley valley teems with vapor around meand the</span>
+      </div>
+    </div>
   </div>
-  <div class="carte container text-center">
+
+  <div class="carte container text-center pt-5">
     <div class="row align-items-center">
       <CardServices v-for="(element, index) in services" :key="index" :card="element"/>
     </div>
   </div>
-  <div class="text-center mt-4 mb-4">
-    <button type="button" class="btn btn-primary rounded-pill ms-3">Primary</button>
+  <div class="text-center mt-4 pb-4">
+    <button type="button" class="btn btn-pink rounded-pill ms-3">View All Services</button>
   </div>
 
 </template>
 
 <style lang="scss" scoped>
-  .carte{
-    margin-top: 150px;
-  }
 </style>

@@ -6,7 +6,7 @@
 
 <template>
   <div class="contenitore">
-    <div class="text-center container text-white">
+    <div class="text-center container text-white pt-5 ">
       <div class="row justify-content-center mb-5">
         <div class="col-lg-6">
           <span>Price List</span>
@@ -15,9 +15,9 @@
         </div>
       </div>
     </div>
-    <div class="container text-center w-75">
-      <div class="row mb-5">
-        <div class="col-lg-4">
+    <div class="container text-center">
+      <div class="row mb-5 pb-5">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Designing</h4>
@@ -31,11 +31,11 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-danger rounded-pill">Danger</button>
+              <button type="button" class="mt-5 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Developing</h4>
@@ -49,11 +49,11 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-danger rounded-pill">Danger</button>
+              <button type="button" class="mt-5 btn btn-withe rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card border-0 shadow rounded-4">
             <div class="card-body">
               <h4 class="card-title">Supporting</h4>
@@ -67,7 +67,7 @@
                 <li><strong>Extreme</strong> Typography</li>
                 <li><strong>Exceptional</strong> Design</li>
               </ul>
-              <button type="button" class="mt-5 btn btn-danger rounded-pill">Danger</button>
+              <button type="button" class="mt-5 btn btn-pink rounded-pill">Order Now <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
           </div>
         </div>
