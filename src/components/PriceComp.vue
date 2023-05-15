@@ -19,6 +19,7 @@
       <div class="row mb-5 pb-5">
         <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card border-0 shadow rounded-4">
+            <h2 class="bg-text position-absolute">40</h2>
             <div class="card-body">
               <h4 class="card-title">Designing</h4>
               <span class="type">PROCESS</span>
@@ -37,6 +38,7 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card card-centrale border-0 shadow rounded-4">
+            <h2 class="bg-text position-absolute">60</h2>
             <div class="card-body">
               <h4 class="card-title">Developing</h4>
               <span class="type">PRODUCT</span>
@@ -55,6 +57,7 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card border-0 shadow rounded-4">
+            <h2 class="bg-text position-absolute">80</h2>
             <div class="card-body">
               <h4 class="card-title">Supporting</h4>
               <span class="type">CLIENTS</span>
@@ -114,7 +117,19 @@
     color: #f9636b;
   }
 
+  .card-body{
+    z-index: 2;
+  }
   .card-centrale button:hover{
     box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.30);
+  }
+
+  .bg-text{
+    right: -11px;
+    top: -90px;
+    z-index: 0;
+    font-size: 300px;
+    color: rgba(231, 231, 231, 0.521);
+
   }
 </style>
