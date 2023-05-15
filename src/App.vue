@@ -6,6 +6,7 @@
   import PortfolioComp from './components/PortfolioComp.vue';
   import PriceComp from './components/PriceComp.vue';
   import BlogComp from './components/BlogComp.vue';
+  import TestimonialComp from './components/TestimonialComp.vue';
 
   export default{
     name: 'App',
@@ -17,6 +18,7 @@
       PortfolioComp,
       PriceComp,
       BlogComp,
+      TestimonialComp,
     }
   }
 </script>
@@ -32,6 +34,7 @@
     <PortfolioComp/>
     <PriceComp/>
     <BlogComp/>
+    <TestimonialComp/>
   </main>
 </template>
 
