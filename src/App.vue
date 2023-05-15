@@ -7,6 +7,8 @@
   import PriceComp from './components/PriceComp.vue';
   import BlogComp from './components/BlogComp.vue';
   import TestimonialComp from './components/TestimonialComp.vue';
+  import FooterComp from './components/FooterComp.vue';
+
 
   export default{
     name: 'App',
@@ -19,6 +21,7 @@
       PriceComp,
       BlogComp,
       TestimonialComp,
+      FooterComp,
     }
   }
 </script>
@@ -36,6 +39,9 @@
     <BlogComp/>
     <TestimonialComp/>
   </main>
+  <footer>
+    <FooterComp/>
+  </footer>
 </template>
 
 <style lang="scss">

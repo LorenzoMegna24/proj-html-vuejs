@@ -8,7 +8,13 @@
 <template>
   <div class="col lg-4">
     <img class="rounded-circle" :src="recensione.img" alt="">
-    <p>stelle</p>
+    <div>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+    </div>
     <p>{{ recensione.text }}</p>
     <h6>{{ recensione.name }}</h6>
     <span>{{ recensione.title }}</span>
@@ -19,5 +25,8 @@
 img{
   width: 20%;
   border: 4px solid #B6246E;
+}
+i{
+  color: #B6246E;
 }
 </style>
