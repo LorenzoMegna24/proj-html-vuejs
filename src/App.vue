@@ -10,6 +10,7 @@
   import FooterComp from './components/FooterComp.vue';
 
 
+
   export default{
     name: 'App',
     components:{
