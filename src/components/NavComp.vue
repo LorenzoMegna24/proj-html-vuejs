@@ -44,11 +44,14 @@
 <style lang="scss" scoped>
   ul li{
     list-style-type: none;
-    margin-left: 12px;
+    margin-left: 25px;
     margin-top: 11px;
   }
   a{
     text-decoration: none;
     color: white;
+  }
+  a:hover{
+    color: #f9636b;
   }
 </style>
