@@ -60,11 +60,14 @@
         <div class="col-lg-6 copy">
           <span>&#169; Phlox.All Rights Reserved.</span>
         </div>
-        <div class="col-lg-6 social text-end">
+        <div class="col-lg-6 social text-end position-relative">
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <div class="btn-up position-absolute rounded-circle d-flex align-items-center justify-content-center">
+            <a href="#nav" ><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
         </div>
       </div>
     </div>
@@ -108,6 +111,28 @@ background: rgb(249,99,107);
 background: linear-gradient(315deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
 color: white;
 
+}
+.btn-up{
+  display: inline-block;
+  top: -30px;
+  right: -45px;
+  text-align: center;
+  color: white;
+  background: rgb(249,99,107);
+  background: linear-gradient(270deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+  width: 36px;
+  height: 36px;
+
+}
+
+.btn-up:hover{
+  box-shadow: 0px 0px 20px 5px rgba(249,99,107,0.61);
+  transform: scale(1.1);
+}
+
+.btn-up i{
+  margin: 0;
+  font-size: 20px;
 }
 
 </style>

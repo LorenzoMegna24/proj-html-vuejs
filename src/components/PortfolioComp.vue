@@ -1,10 +1,7 @@
 <script>
-  import CardPortfolio from './CardPortfolio.vue';
   export default{
     name: 'PortfolioComp',
-    components:{
-      CardPortfolio,
-    },
+
     data(){
       return{
         portfolio: [
@@ -30,8 +27,42 @@
             },
         ],
 
+        attiva: 0,
+        slider: null,
+
       }
     },
+    methods:{
+      prev(){
+
+        this.attiva--
+
+        if ( this.attiva < 0 ) {
+          this.attiva = this.portfolio.length - 1
+        }
+      },
+      next(){
+
+        this.attiva++
+
+        if ( this.attiva > this.portfolio.length - 1 ) {
+          this.attiva = 0
+        }
+      },
+      autoSlide(){
+        this.slider = setInterval( ()=>{
+          this.next()
+        }, 2000)
+      },
+
+      stopSlide(){
+        clearInterval(this.slider)
+        this.slider = null
+      }
+    },
+    created(){
+      this.autoSlide()
+    }
   }
 </script>
 
@@ -44,13 +75,46 @@
       </div>
     </div>
   </div>
-  <div>
-    <div class="d-flex justify-content-around pb-5 mb-5">
-      <CardPortfolio v-for="(element, index) in portfolio" :key="index" :lavori="element"/>
+  <div class="container">
+    <div class="row justify-content-around pb-5 mb-5">
+      <!-- <CardPortfolio v-for="(element, index) in portfolio" :key="index" :lavori="element"/> -->
+      <div class="col-lg-6 d-flex align-items-center" @mouseover="stopSlide" @mouseleave="autoSlide">
+        <div class="prev me-4 rounded-circle p-2 d-flex align-items-center" @click="prev">
+          <i class="fa-solid fa-circle-arrow-left fs-2"></i>
+        </div>
+        <div class="card rounded-4 shadow border-0" >
+          <img class="rounded-4" :src="portfolio[attiva].img" alt="">
+          <div class="card-body d-flex justify-content-between mb-2 pb-0">
+            <h5 class="card-title">{{ portfolio[attiva].title }}</h5>
+            <span class="sub">{{ portfolio[attiva].text }}</span>
+          </div>
+        </div>
+        <div class="next ms-4 rounded-circle p-2 d-flex align-items-center" @click="next">
+          <i class="fa-solid fa-circle-arrow-right fs-2"></i>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-
+  sub{
+    font-size: 12px;
+  }
+  .card:hover{
+    background: rgb(249,99,107);
+    background: linear-gradient(270deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+    color: white;
+  }
+  .prev, .next{
+    background: rgb(249,99,107);
+    background: linear-gradient(270deg, rgba(249,99,107,1) 43%, rgba(182,36,110,1) 100%);
+    cursor: pointer;
+  }
+  i{
+    color: white;
+  }
+  i:hover{
+    box-shadow: 0px 0px 20px 5px rgba(249,99,107,0.61);
+  }
 </style>

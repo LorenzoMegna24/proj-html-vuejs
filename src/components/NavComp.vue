@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <div class="container">
+  <div id="nav" class="container">
     <div class="row pt-4">
       <div class="col-lg-6 col-md-4">
         <a href="#"><img src="../../public/images/white-logo-2.png" alt=""></a>
