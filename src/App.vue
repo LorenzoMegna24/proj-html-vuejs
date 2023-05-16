@@ -10,7 +10,6 @@
   import FooterComp from './components/FooterComp.vue';
 
 
-
   export default{
     name: 'App',
     components:{
@@ -23,7 +22,7 @@
       BlogComp,
       TestimonialComp,
       FooterComp,
-    }
+    },
   }
 </script>
 
