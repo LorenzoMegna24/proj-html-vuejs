@@ -8,7 +8,7 @@
   import BlogComp from './components/BlogComp.vue';
   import TestimonialComp from './components/TestimonialComp.vue';
   import FooterComp from './components/FooterComp.vue';
-
+  import WrapAround from './components/WrapAround.vue';
 
   export default{
     name: 'App',
@@ -22,6 +22,7 @@
       BlogComp,
       TestimonialComp,
       FooterComp,
+      WrapAround
     },
   }
 </script>
@@ -34,7 +35,8 @@
   <main>
     <ServicesComp/>
     <StartComp/>
-    <PortfolioComp/>
+    <!-- <PortfolioComp/> -->
+    <WrapAround/>
     <PriceComp/>
     <BlogComp/>
     <TestimonialComp/>
